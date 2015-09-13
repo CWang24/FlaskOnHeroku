@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<table rules="rows">
+<tr>
+  <td>Rank</td>
+  <td>GirlGroup</td>
+  <td>Population</td>
+</tr>
+{% for gg in list %}
+<tr>
+  <td>{{gg.ggrank}}</td>
+  <td>{{gg.ggname}}</td>
+  <td align="right">{{gg.ggppl}}</td>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

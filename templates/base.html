@@ -1,0 +1,25 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{title}}</title>
+    {% else %}
+    <title>Offical Cafe Real Time Population</title>
+    {% endif %}
+  </head>
+  <body>
+    <div>
+	<p><b>Girl Group Offical Cafe Real Time Population:</b></p>
+	<p>made by <a href="http://weibo.com/ubobome">@UboboMe</a></p>
+	</div>
+    <hr>
+    {% block content %}{% endblock %}
+	<hr>
+	<p>Note: </p>
+	<p>Only top 35 are listed here.</p>
+	<p>All groups affiliated with SM entertainment (like SNSD, f(x), Red Velvet), the daum cafe is not official, but established just by fans, so unlike others, the population of those fan cafe can never increase because of official benefits (like fan meeting entrance permission). </p>
+	<p>注: </p>
+	<p>仅列了人数前35名的官咖。</p>
+	<p>所有隶属于SM经纪公司的组合（如SNSD, f(x), Red Velvet）, 她们的daum cafe并非官方, 而是仅仅由粉丝们建立的。所以不会像其他家的咖那样会因为官方的福利（如粉丝见面会入场资格）而人数猛增。</p>
+	
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Hi, {{user.nickname}}!</h1>
+{% for girlgroup in GKpopul %}
+<p>
+  <b>{{girlgroup}}</b> has: {{GKpopul.author.nickname}} 
+</p>
+{% endfor %}
+{% endblock %}

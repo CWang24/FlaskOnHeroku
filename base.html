@@ -1,0 +1,14 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{title}}</title>
+    {% else %}
+    <title>Offical Cafe Real Time Population</title>
+    {% endif %}
+  </head>
+  <body>
+    <div>Offical Cafe Real Time Population: <a href="/index">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
